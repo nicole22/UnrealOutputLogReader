@@ -4,7 +4,7 @@ A java program to find your output messages in the log file for an Unreal Engine
 This java program takes the log file produced by running an Unreal Engine game and 
 sorts out the output that are relevant to you. 
 
-##How to use it: 
+## How to use it: 
 
 1. In your Unreal game, print output messages to the log using the "Print String" 
 	function in Blueprints. Run your game. 
@@ -13,7 +13,7 @@ sorts out the output that are relevant to you.
 3. Compile and run UnrealOutputLogReader.java
 4. Open the output file, and voila! You have your relevant information. 
 
-##Variations: 
+## Variations: 
 
 You may need to change the number in line 57 (*builder.append(line.substring(76));*)
 from 76 to another value depending on the length of the name of the class from which
